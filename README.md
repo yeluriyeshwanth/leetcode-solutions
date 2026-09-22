@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
+| [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 ## Math
 |  |
 | ------- |
@@ -29,4 +31,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
+## Sorting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
+## Counting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
