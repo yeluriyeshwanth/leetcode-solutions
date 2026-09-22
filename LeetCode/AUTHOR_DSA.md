@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 5 / 238 (2.1%)
+- **Completed:** 6 / 238 (2.5%)
 
 ---
 
@@ -96,7 +96,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Count Nice Pairs
 
 ### 📂 MODULE  3.5: SORTINGBASED THINKING Sort
-- [ ] Sort Colors
+- [x] [Sort Colors](./Java/Medium/75. Sort Colors/)
 - [ ] Sort Array by Parity
 - [ ] Squares of a Sorted Array
 - [ ] Third Maximum Number

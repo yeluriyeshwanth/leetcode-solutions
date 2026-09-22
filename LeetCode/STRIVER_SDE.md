@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 3 / 76 (3.9%)
+- **Completed:** 4 / 76 (5.3%)
 
 ---
 
@@ -14,7 +14,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Pascal's Triangle
 - [ ] Next Permutation
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
-- [ ] Sort Colors
+- [x] [Sort Colors](./Java/Medium/75. Sort Colors/)
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Rotate Image
 - [ ] Merge Intervals
