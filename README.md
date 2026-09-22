@@ -13,4 +13,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0053-maximum-subarray) |
+## Hash Table
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
