@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 75 (2.7%)
+- **Completed:** 3 / 75 (4.0%)
 
 ---
 
@@ -18,7 +18,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [x] [Maximum Product Subarray](./Java/Medium/152. Maximum Product Subarray/)
 - [ ] Find Minimum in Rotated Sorted Array
 - [ ] Search in Rotated Sorted Array
-- [ ] 3Sum
+- [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [ ] Container With Most Water
 
 ### 📂 Binary

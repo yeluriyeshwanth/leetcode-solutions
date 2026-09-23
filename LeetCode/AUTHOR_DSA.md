@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 6 / 238 (2.5%)
+- **Completed:** 8 / 238 (3.4%)
 
 ---
 
@@ -128,7 +128,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 MODULE  3.9: ADVANCED ARRAY QUESTIONS Co
 - [ ] Container With Most Water
-- [ ] 3Sum
+- [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [ ] Kth Largest Element in an Array
 - [ ] Find the Duplicate Number
 - [ ] Next Greater Element I
@@ -154,7 +154,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Subarray Sums Divisible by K
 - [ ] Subsets
 - [ ] Two Sum
-- [ ] 3Sum
+- [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [ ] 4Sum
 - [ ] Subarray Sum Equals K
 - [ ] Subarray Product Less Than K
