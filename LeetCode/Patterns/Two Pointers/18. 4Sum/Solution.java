@@ -8,7 +8,7 @@ class Solution {
             {
                 for(int m =j+1;m<n-1;m++)
                 {
-                    for(int k=m+1;m<n;m++)
+                    for(int k=m+1;k<n;k++)
                     {
                         long sum = (long)nums[i]+nums[j]+nums[m]+nums[k];
                         if(sum==target)
