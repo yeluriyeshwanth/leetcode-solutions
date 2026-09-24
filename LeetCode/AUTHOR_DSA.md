@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 8 / 238 (3.4%)
+- **Completed:** 9 / 238 (3.8%)
 
 ---
 
@@ -164,7 +164,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 PART  1: STRING BASICS & CHARACTER MANIP
 - [ ] Defanging an IP Address
 - [ ] Score of a String
-- [ ] Reverse String
+- [x] [Reverse String](./Java/Easy/344. Reverse String/)
 - [ ] Truncate Sentence
 - [ ] To Lower Case
 - [ ] Remove Trailing Zeros
