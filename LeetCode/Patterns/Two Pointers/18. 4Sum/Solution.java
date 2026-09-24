@@ -6,7 +6,6 @@ class Solution {
         {
             for(int j=i+1;j<n-2;j++)
             {
-                for(int m =j+1;m<n-1;m++)
                 {
                     for(int k=m+1;k<n;k++)
                     {

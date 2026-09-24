@@ -1,6 +1,6 @@
 # 📝 18. 4Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/4sum)
+🔗 [Problem Link](https://leetcode.com/problems/4sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
