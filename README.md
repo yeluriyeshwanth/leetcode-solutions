@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0053-maximum-subarray) |
+| [0088-merge-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0152-maximum-product-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
 | [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
 ## Floyd's Cycle Finding Algorithm
 |  |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 ## Counting
 |  |
