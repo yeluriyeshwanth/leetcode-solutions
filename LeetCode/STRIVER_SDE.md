@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 6 / 76 (7.9%)
+- **Completed:** 7 / 76 (9.2%)
 
 ---
 
@@ -19,7 +19,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Rotate Image
 - [ ] Merge Intervals
 - [ ] Find the Duplicate Number
-- [ ] Trapping Rain Water
+- [x] [Trapping Rain Water](./Java/Hard/42. Trapping Rain Water/)
 
 ### 📂 Two Pointers & Hashing
 - [ ] Search a 2D Matrix
