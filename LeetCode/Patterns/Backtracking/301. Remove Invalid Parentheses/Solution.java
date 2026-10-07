@@ -29,9 +29,9 @@ class Solution {
         backtrack(
             s,
             0,
-            0,
             leftRem,
             rightRem,
+            0,
             new StringBuilder(),
             result
         );
@@ -42,13 +42,13 @@ class Solution {
     private void backtrack(
             String s,
             int index,
-            int balance,
             int leftRem,
             int rightRem,
+            int balance,
             StringBuilder current,
             List<String> result) {
 
-        // Entire string processed
+        // We processed the entire string
         if (index == s.length()) {
 
             if (leftRem == 0 &&
@@ -63,41 +63,43 @@ class Solution {
 
         char ch = s.charAt(index);
 
-        // ============================================
-        // CASE 1: '('
-        // ============================================
+        // ==========================================
+        // CASE 1: Current character is '('
+        // ==========================================
 
         if (ch == '(') {
 
-            // OPTION 1: REMOVE '('
+            // Option 1: Remove '('
             if (leftRem > 0) {
 
-                // Skip duplicate removal choices
+                // IMPORTANT:
+                // Skip duplicate removal only when
+                // the previous character is the same
+                // AND we are at the same recursion choice.
                 if (index == 0 ||
                     s.charAt(index - 1) != '(') {
 
                     backtrack(
                         s,
                         index + 1,
-                        balance,
                         leftRem - 1,
                         rightRem,
+                        balance,
                         current,
                         result
                     );
                 }
             }
 
-            // OPTION 2: KEEP '('
-
+            // Option 2: Keep '('
             current.append('(');
 
             backtrack(
                 s,
                 index + 1,
-                balance + 1,
                 leftRem,
                 rightRem,
+                balance + 1,
                 current,
                 result
             );
@@ -105,32 +107,31 @@ class Solution {
             current.deleteCharAt(current.length() - 1);
         }
 
-        // ============================================
-        // CASE 2: ')'
-        // ============================================
+        // ==========================================
+        // CASE 2: Current character is ')'
+        // ==========================================
 
         else if (ch == ')') {
 
-            // OPTION 1: REMOVE ')'
+            // Option 1: Remove ')'
             if (rightRem > 0) {
 
-                // Skip duplicate removal choices
                 if (index == 0 ||
                     s.charAt(index - 1) != ')') {
 
                     backtrack(
                         s,
                         index + 1,
-                        balance,
                         leftRem,
                         rightRem - 1,
+                        balance,
                         current,
                         result
                     );
                 }
             }
 
-            // OPTION 2: KEEP ')'
+            // Option 2: Keep ')'
             if (balance > 0) {
 
                 current.append(')');
@@ -138,9 +139,9 @@ class Solution {
                 backtrack(
                     s,
                     index + 1,
-                    balance - 1,
                     leftRem,
                     rightRem,
+                    balance - 1,
                     current,
                     result
                 );
@@ -149,9 +150,9 @@ class Solution {
             }
         }
 
-        // ============================================
+        // ==========================================
         // CASE 3: Letter
-        // ============================================
+        // ==========================================
 
         else {
 
@@ -160,9 +161,9 @@ class Solution {
             backtrack(
                 s,
                 index + 1,
-                balance,
                 leftRem,
                 rightRem,
+                balance,
                 current,
                 result
             );
