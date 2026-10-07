@@ -9,18 +9,19 @@ class Solution {
         int leftRem = 0;
         int rightRem = 0;
 
-        // Find minimum number of '(' and ')' to remove
+        // Find the minimum number of removals needed
         for (char ch : s.toCharArray()) {
 
             if (ch == '(') {
-
                 leftRem++;
+            }
 
-            } else if (ch == ')') {
+            else if (ch == ')') {
 
                 if (leftRem > 0) {
                     leftRem--;
-                } else {
+                }
+                else {
                     rightRem++;
                 }
             }
@@ -48,14 +49,19 @@ class Solution {
             StringBuilder current,
             List<String> result) {
 
-        // We processed the entire string
+        // Finished processing the string
         if (index == s.length()) {
 
             if (leftRem == 0 &&
                 rightRem == 0 &&
                 balance == 0) {
 
-                result.add(current.toString());
+                String answer = current.toString();
+
+                // Avoid duplicate answers
+                if (!result.contains(answer)) {
+                    result.add(answer);
+                }
             }
 
             return;
@@ -63,35 +69,27 @@ class Solution {
 
         char ch = s.charAt(index);
 
-        // ==========================================
-        // CASE 1: Current character is '('
-        // ==========================================
+        // =========================================
+        // CASE 1: '('
+        // =========================================
 
         if (ch == '(') {
 
-            // Option 1: Remove '('
+            // OPTION 1: REMOVE '('
             if (leftRem > 0) {
 
-                // IMPORTANT:
-                // Skip duplicate removal only when
-                // the previous character is the same
-                // AND we are at the same recursion choice.
-                if (index == 0 ||
-                    s.charAt(index - 1) != '(') {
-
-                    backtrack(
-                        s,
-                        index + 1,
-                        leftRem - 1,
-                        rightRem,
-                        balance,
-                        current,
-                        result
-                    );
-                }
+                backtrack(
+                    s,
+                    index + 1,
+                    leftRem - 1,
+                    rightRem,
+                    balance,
+                    current,
+                    result
+                );
             }
 
-            // Option 2: Keep '('
+            // OPTION 2: KEEP '('
             current.append('(');
 
             backtrack(
@@ -104,34 +102,34 @@ class Solution {
                 result
             );
 
+            // Undo
             current.deleteCharAt(current.length() - 1);
         }
 
-        // ==========================================
-        // CASE 2: Current character is ')'
-        // ==========================================
+        // =========================================
+        // CASE 2: ')'
+        // =========================================
 
         else if (ch == ')') {
 
-            // Option 1: Remove ')'
+            // OPTION 1: REMOVE ')'
             if (rightRem > 0) {
 
-                if (index == 0 ||
-                    s.charAt(index - 1) != ')') {
-
-                    backtrack(
-                        s,
-                        index + 1,
-                        leftRem,
-                        rightRem - 1,
-                        balance,
-                        current,
-                        result
-                    );
-                }
+                backtrack(
+                    s,
+                    index + 1,
+                    leftRem,
+                    rightRem - 1,
+                    balance,
+                    current,
+                    result
+                );
             }
 
-            // Option 2: Keep ')'
+            // OPTION 2: KEEP ')'
+            //
+            // We can only keep ')' if there is
+            // an unmatched '(' available.
             if (balance > 0) {
 
                 current.append(')');
@@ -146,13 +144,14 @@ class Solution {
                     result
                 );
 
+                // Undo
                 current.deleteCharAt(current.length() - 1);
             }
         }
 
-        // ==========================================
-        // CASE 3: Letter
-        // ==========================================
+        // =========================================
+        // CASE 3: LETTER
+        // =========================================
 
         else {
 
@@ -168,6 +167,7 @@ class Solution {
                 result
             );
 
+            // Undo
             current.deleteCharAt(current.length() - 1);
         }
     }
