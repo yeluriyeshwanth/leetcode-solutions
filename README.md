@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3525-find-x-value-of-array-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3525-find-x-value-of-array-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1096-brace-expansion-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/1096-brace-expansion-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Counting
 |  |
 | ------- |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Bit Manipulation
 |  |
 | ------- |
