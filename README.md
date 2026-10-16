@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0152-maximum-product-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0069-sqrtx) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Sliding Window
