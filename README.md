@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0001-two-sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0053-maximum-subarray](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0088-merge-sorted-array) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0001-two-sum) |
 | [0202-happy-number](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0202-happy-number) |
 | [0229-majority-element-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
