@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3525-find-x-value-of-array-ii](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3525-find-x-value-of-array-ii) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/yeluriyeshwanth/leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Binary Indexed Tree
 |  |
 | ------- |
