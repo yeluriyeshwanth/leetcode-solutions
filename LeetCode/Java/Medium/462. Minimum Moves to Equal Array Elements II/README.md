@@ -1,6 +1,6 @@
 # 📝 462. Minimum Moves to Equal Array Elements II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/?envType=daily-question&envId=2026-11-02)
+🔗 [Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Math, Sorting
 
 ### 🚀 Performance
-- **Runtime:** Successfully Evaluated
-- **Memory:** N/A
+- **Runtime:** 10 ms
+- **Memory:** 46.6 MB
 
 ---
 
